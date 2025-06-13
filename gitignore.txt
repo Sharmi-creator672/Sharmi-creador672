@@ -1,31 +1,82 @@
-# Built things
-_Debug/
-Compiled/
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sharmelym Delgado Patiño</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #fceabb, #f8b500);
+      color: #333;
+    }
+    header {
+      background-color: #ff6f61;
+      padding: 2rem;
+      text-align: center;
+      color: white;
+      border-bottom: 5px solid #e2584d;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    section {
+      padding: 2rem;
+      background-color: white;
+      margin: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #ff6f61;
+    }
+    .personal-info {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #ff6f61;
+      color: white;
+      margin-top: 3rem;
+      border-top: 5px solid #e2584d;
+    }
+    .highlight {
+      font-weight: bold;
+      color: #f8b500;
+    }
+  </style>
+</head>
+<body>
 
-# AudioCache can be rebuilt from sources
-AudioCache/
+  <header>
+    <h1>Sharmelym Delgado Patiño</h1>
+    <p>¡Bienvenid@ a mi espacio creativo y original!</p>
+  </header>
 
-# Lockfile
-_OpenInEditor.lock
+  <section>
+    <h2>Acerca de mí</h2>
+    <p>Bienvenido a mi espacio alegre que fue creado para mostrar un poco de lo que soy: una <span class="highlight">persona única y original</span>. Soy una estudiante muy <span class="highlight">optimista, proactiva y creativa</span>. Aquí podrás encontrar información sobre mis estudios, habilidades y algunos intereses.</p>
+  </section>
 
-# User settings
-Game.agf.user
-*.crm.user
+  <section>
+    <h2>Información Personal</h2>
+    <div class="personal-info">
+      <div><strong>Nombre:</strong> Sharmelym Yheraldine Delgado</div>
+      <div><strong>Edad:</strong> 19 años</div>
+      <div><strong>Correo:</strong> sharmelym.delgado@ucsp.edu.pe</div>
+      <div><strong>Residencia:</strong> Arequipa</div>
+    </div>
+  </section>
 
-# Backups
-Game.agf.bak
-backup_acsprset.spr
+  <footer>
+    <p>&copy; 2025 Sharmelym Delgado Patiño | ¡Gracias por visitar mi mundo creativo!</p>
+  </footer>
 
-# Memory dumps
-*.dmp
-
-# Temporary files
-# temporarily created during sprite or room background compression
-~aclzw.tmp
-# temporary, main game data, before getting packed into exe
-game28.dta
-# temporary build of the game before being moved to Compiled/ folder
-*.exe
-
-# Log files
-warnings.log
+</body>
+</html>
